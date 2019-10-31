@@ -18,7 +18,7 @@ return false;
 var isNS = (navigator.appName == "Netscape") ? 1 : 0;
 if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
 function mischandler(){
-    alert('This is Function Disabled');
+    alert('This is Function Disabled by Sultan<br />Looking for WebDesign mail me sultanwebseo@gmail.com');
 return false;
 }
 function mousehandler(e){
@@ -47,7 +47,7 @@ document.onclick=reEnable
     }*/
     document.onkeydown = function(e) {
             if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 80 || e.keyCode === 83 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
-                alert('not allowed');
+                alert('This is Function Disabled by Sultan<br />Looking for WebDesign mail me sultanwebseo@gmail.com');
             }
             return false;
     };
